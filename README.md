@@ -1,7 +1,7 @@
 # Hi there, I'm Zai! 👋 (Yolo Dev)
 
 <div align="center">
-  <!-- Typing SVG dengan encoding URL yang benar (&amp;) agar tidak broken di proxy GitHub -->
+  <!-- Typing SVG bertema Game Retro (font Press Start 2P) -->
   <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&amp;size=16&amp;duration=3000&amp;pause=1000&amp;color=F79F1F&amp;width=450&amp;center=true&amp;vCenter=true&amp;lines=I'm+Zai+-+Yolo+Dev;Building+PaleoBar;Tauri+%2B+Vanilla+JS+%2B+Rust;Welcome+to+my+colony!" alt="Typing SVG" />
 </div>
 
@@ -13,6 +13,11 @@
 </p>
 
 <h3 align="center">🤠 YOLO Developer trying turn imagination into reality</h3>
+
+<p align="center">
+  <!-- XP Gained Profile Views Counter (komarev.com/ghpvc/) berlabel custom RPG -->
+  <img src="https://komarev.com/ghpvc/?username=vuckuola619&amp;color=f79f1f&amp;style=flat-square&amp;label=XP+GAINED+++" alt="Profile Views / XP Gained" />
+</p>
 
 ---
 
@@ -51,7 +56,7 @@
 * **Features**:
   * Fly to glowing *Menara Ilmu* around planets to answer Islamic & astronomical quizzes.
   * Custom orbital mechanics, ship flight pitch/yaw/roll controls, camera PoV switching, and speed boosts.
-  * Procedural Web Audio synth & responsive mobile motion (gyroscope) controls.
+  * Responsive mobile motion (gyroscope) controls and Web Audio synth.
 
 ---
 
@@ -81,10 +86,24 @@
 
 ---
 
-### 🛠️ Inventory & Tech Stack
-* **Languages**: JavaScript, Rust, TypeScript, GLSL Shaders, HTML5/CSS3.
-* **Graphics & Audio**: WebGL (Three.js), Web Audio API, SVG Sprites.
-* **Tools & Runtimes**: Tauri 2, Make, Zapier, n8n, Bun, Node.js, Cloudflare Pages.
+### 🛠️ Inventory & Tech Stack (Config)
+```javascript
+const Zai = {
+  role: "YOLO Developer",
+  status: "Trying turn imagination into reality ✨",
+  languages: {
+    proficient: ["JavaScript", "TypeScript", "HTML5/CSS3"],
+    systems: ["Rust", "Python", "GLSL Shaders"]
+  },
+  technologies: {
+    desktopGamedev: ["Tauri 2", "Phaser 3", "Web Audio API", "Three.js (WebGL)"],
+    webFullstack: ["React 19", "TanStack Start", "Astro 5", "Vite", "Tailwind CSS v4"],
+    automation: ["n8n", "Make.com", "Zapier", "ChatGPT API", "Claude / Gemini APIs"],
+    devOps: ["Bun", "Node.js", "Docker", "Cloudflare Pages", "Git Worktrees"]
+  },
+  creatureCompanion: "🦖 Baby T-Rex (Level 99)"
+};
+```
 
 ---
 
