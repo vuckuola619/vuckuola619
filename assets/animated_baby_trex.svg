@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="80" height="80" shape-rendering="crispEdges">
+  <style>
+    @keyframes walk {
+      0%, 100% { transform: translateY(0) rotate(0deg); }
+      25% { transform: translateY(-1.5px) rotate(-4deg); }
+      75% { transform: translateY(-1.5px) rotate(4deg); }
+    }
+    @keyframes tail {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(-8deg); }
+    }
+    .dino-body {
+      animation: walk 0.8s infinite ease-in-out;
+      transform-origin: 10px 16px;
+    }
+    .dino-tail {
+      animation: tail 0.8s infinite ease-in-out;
+      transform-origin: 7px 11px;
+    }
+  </style>
+  <g class="dino-body">
+    <!-- Tail -->
+    <g class="dino-tail">
+      <rect x="4" y="11" width="4" height="2" fill="#e74c3c" />
+      <rect x="3" y="10" width="2" height="1" fill="#e74c3c" />
+    </g>
+    <!-- Body (Red Dino) -->
+    <rect x="7" y="11" width="7" height="5" fill="#e74c3c" />
+    <!-- Head (Red Dino) -->
+    <rect x="11" y="6" width="6" height="6" fill="#e74c3c" />
+    <!-- Huge Eye -->
+    <rect x="13" y="7" width="2" height="2" fill="#2c3e50" />
+    <rect x="14" y="7" width="1" height="1" fill="#ffffff" />
+    <!-- Cheek blush -->
+    <rect x="12" y="9" width="1" height="1" fill="#f1948a" />
+    <!-- Tiny teeth -->
+    <rect x="15" y="11" width="1" height="1" fill="#ffffff" />
+    <!-- Tiny arms -->
+    <rect x="10" y="12" width="2" height="1" fill="#c0392b" />
+    <!-- Legs -->
+    <rect x="8" y="16" width="2" height="3" fill="#c0392b" />
+    <rect x="12" y="16" width="2" height="3" fill="#e74c3c" />
+  </g>
+</svg>

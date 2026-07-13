@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="80" height="80" shape-rendering="crispEdges">
+  <style>
+    @keyframes breathe {
+      0%, 100% { transform: translateY(0px) scaleY(1); }
+      50% { transform: translateY(0.5px) scaleY(0.96); }
+    }
+    .player-sprite {
+      animation: breathe 1.6s ease-in-out infinite;
+      transform-origin: 12px 22px;
+    }
+  </style>
+  <g class="player-sprite">
+    <!-- Hair (Orange-Brown) -->
+    <rect x="7" y="3" width="9" height="3" fill="#d35400" />
+    <rect x="6" y="5" width="11" height="2" fill="#d35400" />
+    
+    <!-- Face/Skin -->
+    <rect x="8" y="7" width="7" height="4" fill="#f5c293" />
+    <rect x="7" y="8" width="1" height="2" fill="#f5c293" />
+    <rect x="15" y="8" width="1" height="2" fill="#f5c293" />
+    <!-- Eyes -->
+    <rect x="9" y="8" width="1" height="1" fill="#2c3e50" />
+    <rect x="13" y="8" width="1" height="1" fill="#2c3e50" />
+    <!-- Beard -->
+    <rect x="8" y="10" width="7" height="2" fill="#ba4a00" />
+
+    <!-- Torso (Leopard/Animal Hide) -->
+    <rect x="8" y="12" width="7" height="6" fill="#e67e22" />
+    <!-- Spots -->
+    <rect x="9" y="13" width="1" height="1" fill="#7e5109" />
+    <rect x="13" y="14" width="1" height="1" fill="#7e5109" />
+    <rect x="11" y="16" width="1" height="1" fill="#7e5109" />
+
+    <!-- Arms -->
+    <rect x="6" y="12" width="2" height="3" fill="#f5c293" />
+    <rect x="15" y="12" width="2" height="3" fill="#f5c293" />
+
+    <!-- Spear (Shaft) -->
+    <rect x="3" y="18" width="1" height="1" fill="#8e5a2f" />
+    <rect x="4" y="17" width="1" height="1" fill="#8e5a2f" />
+    <rect x="5" y="16" width="1" height="1" fill="#8e5a2f" />
+    <rect x="6" y="15" width="1" height="1" fill="#8e5a2f" />
+    <rect x="7" y="14" width="1" height="1" fill="#8e5a2f" />
+    <rect x="8" y="13" width="1" height="1" fill="#8e5a2f" />
+    <rect x="9" y="12" width="1" height="1" fill="#8e5a2f" />
+    <rect x="10" y="11" width="1" height="1" fill="#8e5a2f" />
+    <rect x="11" y="10" width="1" height="1" fill="#8e5a2f" />
+    <rect x="12" y="9" width="1" height="1" fill="#8e5a2f" />
+    <rect x="13" y="8" width="1" height="1" fill="#8e5a2f" />
+    <rect x="14" y="7" width="1" height="1" fill="#8e5a2f" />
+    <rect x="15" y="6" width="1" height="1" fill="#8e5a2f" />
+    <rect x="16" y="5" width="1" height="1" fill="#8e5a2f" />
+    <rect x="17" y="4" width="1" height="1" fill="#8e5a2f" />
+    <rect x="18" y="3" width="1" height="1" fill="#8e5a2f" />
+    <!-- Spear Tip (Stone) -->
+    <rect x="19" y="2" width="2" height="2" fill="#7f8c8d" />
+    <rect x="21" y="1" width="1" height="1" fill="#95a5a6" />
+
+    <!-- Legs & Feet -->
+    <rect x="9" y="18" width="2" height="3" fill="#f5c293" />
+    <rect x="12" y="18" width="2" height="3" fill="#f5c293" />
+    <rect x="8" y="21" width="3" height="1" fill="#d35400" />
+    <rect x="12" y="21" width="3" height="1" fill="#d35400" />
+  </g>
+</svg>

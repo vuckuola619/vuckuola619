@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="80" height="80">
+  <style>
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    .ufo-hover {
+      animation: float 2.2s ease-in-out infinite;
+      transform-origin: center;
+    }
+  </style>
+  <!-- Link absolut ke image ufo di repo falak (akan ter-render jika repo falak public) -->
+  <image href="https://raw.githubusercontent.com/vuckuola619/falak/main/img/ships/ufo.png" x="10" y="10" width="80" height="80" class="ufo-hover" />
+</svg>
