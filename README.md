@@ -12,7 +12,7 @@
   <img src="assets/animated_baby_trex.svg" width="70" alt="Baby T-Rex" />
 </p>
 
-<h3 align="center">🤠 YOLO Developer building cozy companion games & interactive WebGL experiences</h3>
+<h3 align="center">🤠 YOLO Developer trying turn imagination into reality</h3>
 
 ---
 
