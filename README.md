@@ -36,7 +36,7 @@
 
 ### 🦕 Main Quest: **[PaleoBar](https://github.com/vuckuola619/paleobar)**
 *Tiny Prehistoric Ecosystem Companion RPG*
-* A cozy desktop idle RPG that runs in a tiny taskbar window.
+* **Cozy Idle Gameplay**: A desktop idle RPG that runs inside a tiny taskbar window.
 * **Tech Stack**: Tauri 2 (Rust) + Vanilla HTML/CSS/JS (no framework slop!).
 * **Generative Audio**: Features on-the-fly ambient music synthesized using the **Web Audio API** 🎶.
 * **Game Loop**: Automated combat ticks, weather alerts (like Volcanic Ash!), procedural battles, and localized Indonesian & English education.
@@ -51,12 +51,12 @@
   <img src="assets/animated_ufo.svg" width="90" alt="UFO Ship" />
 </p>
 
-* Flight simulation across a complete and realistic 3D Solar System (8 planets, moon orbits, asteroid belt, and Kuiper belt).
-* **Tech Stack**: Three.js (WebGL) + Vanilla JS (no build steps, pure native ESM).
-* **Features**:
-  * Fly to glowing *Menara Ilmu* around planets to answer Islamic & astronomical quizzes.
-  * Custom orbital mechanics, ship flight pitch/yaw/roll controls, camera PoV switching, and speed boosts.
-  * Responsive mobile motion (gyroscope) controls and Web Audio synth.
+* **Interactive 3D Solar System**: Free flight simulation exploring 8 planets, moon orbits, Saturn & Uranus rings, asteroid belts, and the Kuiper belt.
+* **Educational Quizzes**: Fly to glowing *Menara Ilmu* around planets to answer quizzes on Rukun Islam, Rukun Iman, Al-Qur'an, stories of the Prophets, Akhlak, and astronomy.
+* **Pure WebGL Engine**: Rendered entirely using Three.js (r161) WebGL — zero framework slop, zero build step, pure native ESM.
+* **Flight Mechanics**: Pitch/yaw/roll flight controls (W/S/A/D, arrows), boost thrusters, and third-person/first-person camera PoVs.
+* **Procedural Audio**: Synthesized sound effects generated dynamically at runtime using the **Web Audio API** (no audio asset downloads).
+* **Multi-Device Support**: Full responsive design supporting both desktop keyboard controls and mobile motion/gyroscope controls.
 
 ---
 
