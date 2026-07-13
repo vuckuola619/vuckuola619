@@ -1,8 +1,8 @@
 # Hi there, I'm Zai! 👋 (Yolo Dev)
 
 <div align="center">
-  <!-- Typing SVG bertema Game Retro (font Press Start 2P) -->
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=3000&pause=1000&color=F79F1F&width=450&center=true&vCenter=true&lines=I'm+a+Yolo+Dev+🤠;Building+PaleoBar+🦕;Tauri+%2B+Vanilla+JS+%2B+Rust;Welcome+to+my+colony!+⛺" alt="Typing SVG" />
+  <!-- Typing SVG dengan encoding URL yang benar (&amp;) agar tidak broken di proxy GitHub -->
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&amp;size=16&amp;duration=3000&amp;pause=1000&amp;color=F79F1F&amp;width=450&amp;center=true&amp;vCenter=true&amp;lines=I'm+Zai+-+Yolo+Dev;Building+PaleoBar;Tauri+%2B+Vanilla+JS+%2B+Rust;Welcome+to+my+colony!" alt="Typing SVG" />
 </div>
 
 <p align="center">

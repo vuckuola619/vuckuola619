@@ -9,6 +9,6 @@
       transform-origin: center;
     }
   </style>
-  <!-- Link absolut ke image ufo di repo falak (akan ter-render jika repo falak public) -->
-  <image href="https://raw.githubusercontent.com/vuckuola619/falak/main/img/ships/ufo.png" x="10" y="10" width="80" height="80" class="ufo-hover" />
+  <!-- Sibling path since ufo.png is in the same folder -->
+  <image href="ufo.png" x="10" y="10" width="80" height="80" class="ufo-hover" />
 </svg>
